@@ -1,5 +1,5 @@
 import React from "react";
-import HeroSection from "../context/HerSection";
+import HeroSection from "./Herosection";
 function Landing() {
   return (
     <div>
