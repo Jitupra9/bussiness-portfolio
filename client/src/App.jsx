@@ -1,12 +1,10 @@
 import React from "react";
-import Header from "./pages/header";
-import Landing from "./pages/Landing";
+import Home from './pages/Home/Home';
 function App() {
   return (
-    <div>
-      <Header />
-      <Landing />
-    </div>
+    <>
+      <Home/>
+    </>
   );
 }
 

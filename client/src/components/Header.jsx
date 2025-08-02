@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function Header() {
+const Header = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   return (
@@ -146,7 +146,7 @@ function Header() {
                 <div className="h-full flex flex-col bg-white shadow-xl">
                   <div className="flex items-center justify-between px-4 py-3 border-b border-gray-200">
                     <div className="flex items-center">
-                      <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-lg flex items-center justify-center">
+                      <div className="w-8 h-8 bg-gradient-to-br  from-blue-500 to-indigo-600 rounded-lg flex items-center justify-center">
                         <svg
                           className="w-4 h-4 text-white"
                           fill="none"
@@ -225,6 +225,8 @@ function Header() {
 }
 
 // Reusable Components
+
+
 function NavItem({ icon, text }) {
   return (
     <a
