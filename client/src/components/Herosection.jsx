@@ -177,7 +177,7 @@ const App = () => {
       </div>
 
       {/* Header with Glass Morphism Effect */}
-      <motion.header
+      {/* <motion.header
         initial={{ y: -100 }}
         animate={{ y: 0 }}
         transition={{ duration: 0.5 }}
@@ -240,7 +240,7 @@ const App = () => {
             </motion.button>
           </div>
         </div>
-      </motion.header>
+      </motion.header> */}
 
       {/* Mobile Menu */}
       <AnimatePresence>
